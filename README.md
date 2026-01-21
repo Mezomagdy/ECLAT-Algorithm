@@ -9,11 +9,6 @@ This repository contains a Python implementation of the **ECLAT (Equivalence Cla
 * **Strong Rules Filtering:** Filters rules based on a user-defined `min_confidence`.
 * **Lift Metric:** Calculates the **Lift** for each itemset to measure the importance of the rule.
 
-## 🛠️ Requirements
-* Python 3.x
-* Pandas (`pip install pandas`)
-* Openpyxl (to read Excel files: `pip install openpyxl`)
-
 ## 📂 Project Structure
 * `ECLAT_algorithm.py`: The main source code.
 * `Horizontal_DataSet.xlsx`: Sample dataset (Make sure your Excel has columns `TiD` and `items`).
@@ -24,4 +19,5 @@ This repository contains a Python implementation of the **ECLAT (Equivalence Cla
 3. **Recursive Search:** It builds a prefix tree to explore larger itemsets.
 
 ## 📤 Output Sample
-![ECLAT Output](https://github.com/user-attachments/assets/b3259060-59c8-483c-aab6-0007651f17df)
+![ECLAT Output](https://github.com/user-attachments/assets/45c67919-fdb6-4575-9ea6-6bc2c1ce6dd6)
+
